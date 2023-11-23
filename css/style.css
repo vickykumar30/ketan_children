@@ -5,7 +5,7 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Catamaran:wght@100;300;400;500;600;700;800;900&family=Poppins:wght@400;500;600&display=swap');
 
-*{
+* {
     padding: 0;
     margin: 0;
     box-sizing: border-box;
@@ -14,28 +14,49 @@
 }
 
 /* universal css start */
-.text-orange{
+.text-orange {
     color: #ea512e;
 }
 
-.text-black{
+.text-black {
     color: #1b0238;
 }
-.text-silver{
+
+.text-silver {
     color: #6b6b84;
 }
-.bg-orange{background:#ea512e ;}
-.bg-yellow{background:#f5890d ;}
-.mt-20{margin-top: 150px;}
 
-.h1, .h2, .h3, .h4, .h5, .h6, h1, h2, h3, h4, h5, h6 {
+.bg-orange {
+    background: #ea512e;
+}
+
+.bg-yellow {
+    background: #f5890d;
+}
+
+.mt-20 {
+    margin-top: 150px;
+}
+
+.h1,
+.h2,
+.h3,
+.h4,
+.h5,
+.h6,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
     color: #1b0238;
     font-family: "Catamaran", sans-serif;
     font-weight: bold;
 }
 
-p{
-   
+p {
+
     line-height: 1.8;
     color: #6b6b84;
     font-weight: 400;
@@ -44,19 +65,20 @@ p{
 }
 
 
-.btn{
+.btn {
     color: #fff;
     display: inline-block;
     font-size: 16px;
     padding: 12px 35px;
     border-radius: 10px;
     font-weight: 500;
-    transition: 0.5s;position: relative;
+    transition: 0.5s;
+    position: relative;
     background: #ea512e;
     padding: 12px 35px;
 }
 
-.btn:hover{
+.btn:hover {
     color: #fff;
     background: #f5890d;
 }
@@ -64,19 +86,21 @@ p{
 
 /* universal css end */
 /* nav start */
-a.nav-link:hover, a.dropdown-item:hover{
+a.nav-link:hover,
+a.dropdown-item:hover {
     color: #ea512e !important;
     transition: 0.2s linear;
 }
 
-.dropdown:hover .dropdown-menu{
+.dropdown:hover .dropdown-menu {
     display: block;
     margin: 10px;
 }
+
 /* nav end */
 
 /* banner css start */
-.banner{
+.banner {
     width: 100%;
     height: 700px;
     background: url(../images/main-banner-bg.jpg);
@@ -84,51 +108,59 @@ a.nav-link:hover, a.dropdown-item:hover{
     background-position: center center;
 }
 
-.shape-1{
+.shape-1 {
     top: 3.5%;
     left: .7%;
     animation: move 1s linear alternate infinite;
 }
 
-.shape-2{
+.shape-2 {
     top: 3.5%;
     left: 50%;
     animation: move2 2s linear alternate infinite;
 }
-.shape-3{
-    top:66%;
+
+.shape-3 {
+    top: 66%;
     left: .7%;
     z-index: 9;
     animation: move 2s linear alternate infinite;
 }
-.shape-4{
-    top:75%;
+
+.shape-4 {
+    top: 75%;
     left: 50%;
     /* z-index: 9; */
     animation: move3 2s linear alternate infinite;
 }
 
-.banner h1{
+.banner h1 {
     font-size: 60px;
 }
 
 /* mrdia qwery start */
-@media screen and (max-width:991px){
-    .shape-1, .shape-2, .shape-3, .shape-4, .shape-5{
+@media screen and (max-width:991px) {
+
+    .shape-1,
+    .shape-2,
+    .shape-3,
+    .shape-4,
+    .shape-5 {
         display: none;
     }
 
-    @media screen and (min-width:768px) and (max-width:991px){
-        .main-content{
+    @media screen and (min-width:768px) and (max-width:991px) {
+        .main-content {
             text-align: center;
             margin: auto;
         }
 
-     .main-content p {
-        margin-top: 50px;
-     }
+        .main-content p {
+            margin-top: 50px;
+        }
     }
 }
+
 /* mrdia qwery end*/
 /* banner css end */
 
@@ -140,19 +172,20 @@ a.nav-link:hover, a.dropdown-item:hover{
     font-weight: 600;
     font-family: "Sacramento", cursive;
 }
-.who-we-content h3{
+
+.who-we-content h3 {
     font-size: 45px;
     margin: 20px 0;
 }
 
-.who-we-content ul li{
+.who-we-content ul li {
     font-size: 16px;
     font-weight: 600;
     color: #1b0238;
-    
+
 }
 
-.who-we-content ul li span{
+.who-we-content ul li span {
     width: 30px;
     height: 30px;
     border-radius: 50px;
@@ -164,45 +197,49 @@ a.nav-link:hover, a.dropdown-item:hover{
     color: #fff;
     text-align: center;
     margin-top: 20px;
-    font-family: "Roboto",sans-serif;
+    font-family: "Roboto", sans-serif;
 }
 
-.who-we-content ul li:hover span{
+.who-we-content ul li:hover span {
     transition: 1s all;
 }
-.shape-5{
-    bottom:-30%;
+
+.shape-5 {
+    bottom: -30%;
     left: 85%;
     animation: move5 2s linear alternate infinite;
 }
 
 /* who we are end */
 
-@keyframes move{
-    0%{
+@keyframes move {
+    0% {}
 
-    }
-    100%{
+    100% {
         left: 3%;
     }
 }
 
 @keyframes move2 {
-    0%{}
-    100%{left:53%;}
+    0% {}
+
+    100% {
+        left: 53%;
+    }
 }
-@keyframes move3 {
-    0%{}
-    100%{
+
+/* @keyframes move3 {
+    0% {}
+
+    100% {
         top: 70%;
     }
-}
+} */
 
-@keyframes move5{
-    0%{
+@keyframes move5 {
+    0% {}
 
-    }
-    100%{
+    100% {
         left: 80%;
     }
 }
