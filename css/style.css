@@ -105,7 +105,7 @@ a.nav-link:hover, a.dropdown-item:hover{
     top:75%;
     left: 50%;
     /* z-index: 9; */
-    animation: move2 2s linear alternate infinite;
+    animation: move3 2s linear alternate infinite;
 }
 
 .banner h1{
@@ -191,10 +191,10 @@ a.nav-link:hover, a.dropdown-item:hover{
     0%{}
     100%{left:53%;}
 }
-@keyframes move2 {
+@keyframes move3 {
     0%{}
     100%{
-        bottom: 5%;
+        top: 70%;
     }
 }
 
