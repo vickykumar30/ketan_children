@@ -1,3 +1,6 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&family=Sacramento&display=swap');
+
+
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&family=Roboto:ital,wght@0,100;0,300;0,500;0,700;1,100&display=swap');
 
 @import url('https://fonts.googleapis.com/css2?family=Catamaran:wght@100;300;400;500;600;700;800;900&family=Poppins:wght@400;500;600&display=swap');
@@ -24,6 +27,12 @@
 .bg-orange{background:#ea512e ;}
 .bg-yellow{background:#f5890d ;}
 .mt-20{margin-top: 150px;}
+
+.h1, .h2, .h3, .h4, .h5, .h6, h1, h2, h3, h4, h5, h6 {
+    color: #1b0238;
+    font-family: "Catamaran", sans-serif;
+    font-weight: bold;
+}
 
 p{
    
@@ -82,7 +91,7 @@ a.nav-link:hover, a.dropdown-item:hover{
 }
 
 .shape-2{
-    top:3.5%;
+    top: 3.5%;
     left: 50%;
     animation: move2 2s linear alternate infinite;
 }
@@ -96,13 +105,78 @@ a.nav-link:hover, a.dropdown-item:hover{
     top:75%;
     left: 50%;
     /* z-index: 9; */
-    animation: move3 2s linear alternate infinite;
+    animation: move2 2s linear alternate infinite;
 }
 
 .banner h1{
     font-size: 60px;
 }
+
+/* mrdia qwery start */
+@media screen and (max-width:991px){
+    .shape-1, .shape-2, .shape-3, .shape-4, .shape-5{
+        display: none;
+    }
+
+    @media screen and (min-width:768px) and (max-width:991px){
+        .main-content{
+            text-align: center;
+            margin: auto;
+        }
+
+     .main-content p {
+        margin-top: 50px;
+     }
+    }
+}
+/* mrdia qwery end*/
 /* banner css end */
+
+/* who we are start */
+
+.who-we-content span {
+    font-size: 20px;
+    color: #ea512e;
+    font-weight: 600;
+    font-family: "Sacramento", cursive;
+}
+.who-we-content h3{
+    font-size: 45px;
+    margin: 20px 0;
+}
+
+.who-we-content ul li{
+    font-size: 16px;
+    font-weight: 600;
+    color: #1b0238;
+    
+}
+
+.who-we-content ul li span{
+    width: 30px;
+    height: 30px;
+    border-radius: 50px;
+    line-height: 30px;
+    background: #ea512e;
+    display: inline-block;
+    font-weight: 600;
+    font-size: 16px;
+    color: #fff;
+    text-align: center;
+    margin-top: 20px;
+    font-family: "Roboto",sans-serif;
+}
+
+.who-we-content ul li:hover span{
+    transition: 1s all;
+}
+.shape-5{
+    bottom:-30%;
+    left: 85%;
+    animation: move5 2s linear alternate infinite;
+}
+
+/* who we are end */
 
 @keyframes move{
     0%{
@@ -117,9 +191,18 @@ a.nav-link:hover, a.dropdown-item:hover{
     0%{}
     100%{left:53%;}
 }
-@keyframes move3 {
+@keyframes move2 {
     0%{}
     100%{
-        top: 5%;
+        bottom: 5%;
+    }
+}
+
+@keyframes move5{
+    0%{
+
+    }
+    100%{
+        left: 80%;
     }
 }
