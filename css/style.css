@@ -30,12 +30,32 @@
     background: #ea512e;
 }
 
+.bg-light-orange {
+    background-color: #fdf6ed;
+}
+
 .bg-yellow {
     background: #f5890d;
 }
 
 .mt-20 {
     margin-top: 150px;
+}
+
+.pt-100 {
+    padding-top: 100px;
+}
+
+.pb-70 {
+    padding-bottom: 70px;
+}
+
+.pb-100 {
+    padding-bottom: 100px;
+}
+
+.pb-100 {
+    padding-bottom: 100px;
 }
 
 .h1,
@@ -166,14 +186,20 @@ a.dropdown-item:hover {
 
 /* who we are start */
 
-.who-we-content span {
+.who-we-content span,
+.popular .span1,
+.core-value span,
+.core-teacher span {
     font-size: 20px;
     color: #ea512e;
     font-weight: 600;
     font-family: "Sacramento", cursive;
 }
 
-.who-we-content h3 {
+.who-we-content h3,
+.popular h2,
+.core-value h2,
+.core-teacher h2 {
     font-size: 45px;
     margin: 20px 0;
 }
@@ -197,11 +223,13 @@ a.dropdown-item:hover {
     color: #fff;
     text-align: center;
     margin-top: 20px;
+    transition: all 0.5s;
     font-family: "Roboto", sans-serif;
 }
 
 .who-we-content ul li:hover span {
-    transition: 1s all;
+    background: #f5890d;
+    transition: all 1s ease-in;
 }
 
 .shape-5 {
@@ -211,6 +239,94 @@ a.dropdown-item:hover {
 }
 
 /* who we are end */
+
+/* popular section start */
+.popular .card:hover img {
+    transform: rotate(2deg) scale(1.2);
+    transition: all 0.3s linear;
+}
+
+.class-list {
+    padding-left: 0;
+    margin-bottom: 0;
+    margin-top: 20px;
+    padding-top: 20px;
+    border-top: 1px dashed #ea512e;
+
+}
+
+.class-list li {
+    list-style-type: none;
+    display: inline-block;
+    font-size: 15px;
+    font-weight: 400;
+    font-family: "Roboto", sans-serif;
+    margin-right: 15px;
+}
+
+/* popular section end */
+/* core value start */
+.core-value .number {
+    width: 60px;
+    height: 60px;
+    line-height: 55px;
+    text-align: center;
+    border-radius: 50%;
+    display: inline-block;
+    margin-top: 1.5%;
+    margin-right: 20px;
+    font-size: 25px;
+    color: #1b0238;
+    border: 3px solid #fff;
+    outline: 1px solid #e5e4e4;
+    outline-offset: 2px;
+    transition: 0.5s;
+    cursor: pointer;
+    font-family: "catamaran", sans-serif;
+}
+
+.core-value .number:hover {
+    color: #fff;
+    transition: 0.5s;
+    background: #EA512E !important;
+    outline-color: #EA512E;
+}
+
+/* core value end */
+/* core-teacher start */
+.core-teacher .social-icon {
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin-bottom: -70px;
+    transition: all 0.5s ease-in;
+}
+
+.core-teacher .teacher-image:hover .social-icon {
+    margin-bottom: 0;
+    transition: all 0.5s ease-in;
+}
+
+.core-teacher .social-icon li {
+    width: 30px;
+    height: 30px;
+    line-height: 32px;
+    background: #ea512e;
+    border-radius: 50%;
+    transition: 0.3s ease;
+}
+
+.core-teacher .social-icon li a {
+    color: #fff;
+}
+
+.core-teacher .social-icon li:hover {
+    background: #f5890d;
+    transition: 0.3s ease;
+}
+
+/* core-teacher end */
 
 @keyframes move {
     0% {}
@@ -228,13 +344,13 @@ a.dropdown-item:hover {
     }
 }
 
-/* @keyframes move3 {
+@keyframes move3 {
     0% {}
 
     100% {
         top: 70%;
     }
-} */
+}
 
 @keyframes move5 {
     0% {}
