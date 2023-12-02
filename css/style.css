@@ -331,25 +331,15 @@ a.dropdown-item:hover {
 }
 
 .class-shape .img-1{
-   position: absolute;
    left: 0;
-   bottom: 0;
-   z-index: -1;
+   bottom: -3%;
+   /* z-index: -1; */
 }
-/* .class-shape .img-2{
-    height: auto;
-    max-width: 100%;
-    vertical-align: middle;
-    position: absolute;
-    right: 0;
-    
-    z-index:9;
-} */
+
 .class-shape .img-2{
-    position: absolute;
     right: 0;
-    bottom: 0;
-    z-index: -1;
+    bottom: -5%;
+    /* z-index: 2; */
 }
 
 /* popular section end */
@@ -378,6 +368,23 @@ a.dropdown-item:hover {
     transition: 0.5s;
     background: #EA512E !important;
     outline-color: #EA512E;
+}
+.core-value .shape-img-1{
+   left: 20px;
+    top: 30px;
+    z-index: -1;
+}
+.core-value .shape-img-2{
+   left: 20px;
+    bottom: 30px;
+    z-index: -1;
+}
+.core-value .shape-img-3{
+  right: 0;
+  top: 50%;
+  transform: translateY(-50%);
+  z-index: -1;
+  
 }
 
 /* core value end */
