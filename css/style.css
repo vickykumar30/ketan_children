@@ -60,6 +60,9 @@
 .pb-100 {
     padding-bottom: 100px;
 }
+.fw-4{
+    margin-left: 20px;
+}
 
 .h1,
 .h2,
@@ -218,7 +221,7 @@ a.dropdown-item:hover {
 .who-we-content span,
 .popular .span1,
 .core-value span,
-.core-teacher span,.testimonial span {
+.core-teacher span,.testimonial span , .test span, .upcoming-event span, .news .span1{
     font-size: 20px;
     color: #ea512e;
     font-weight: 600;
@@ -228,7 +231,7 @@ a.dropdown-item:hover {
 .who-we-content h3,
 .popular h2,
 .core-value h2,
-.core-teacher h2, .testimonial h2 {
+.core-teacher h2, .testimonial h2, .news h2 {
     font-size: 45px;
     margin: 20px 0;
 }
@@ -389,6 +392,13 @@ a.dropdown-item:hover {
 
 /* core value end */
 /* core-teacher start */
+.core-teacher{
+    background: url(../images/teacher-bg.jpg);
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    z-index: -9 !important;
+}
 
 .core-teacher .social-icon {
     position: absolute;
@@ -397,6 +407,9 @@ a.dropdown-item:hover {
     bottom: 0;
     margin-bottom: -70px;
     transition: all 0.5s ease-in;
+}
+.core-teacher .teacher-image{
+    z-index: 9;
 }
 
 .core-teacher .teacher-image:hover .social-icon {
@@ -435,20 +448,7 @@ a.dropdown-item:hover {
     transition: 0.5s;
     animation: border-move 30s linear infinite alternate forwards;
 }
-/* .core-teacher .teacher-image::after{
-    position: absolute;
-    content: "";
-    height: 100%;
-    width: 100%;
-    background-color:#f5890d;
-    left: 0;
-    right: 0;
-    top: 0;
-    z-index: -1;
-    border-radius: 50%;
-    transition: 0.5s;
-    animation: border-move 10s linear infinite alternate forwards;
-} */
+
 
 /* core-teacher end */
 /* testimonial start */
@@ -497,7 +497,149 @@ a.dropdown-item:hover {
 .testimonial .nav-btn button:hover{
     background: #f5890d;
 }
+/* test start
+.slider-wrap{
+    position: relative;
+    overflow-x: hidden;
+    /* height: 100px; */
+/* }
+.slider-main{
+    position: absolute;
+    width: 200%;
+}
+.item{
+    width: 350px;
+    display: inline-block;
+    
+}
+.test .card{
+    height: auto;
+    padding: 30px;
+    text-align: center;
+    border-radius: 50%;
+    border: none;
+    background-color: #fee9ca;
+}
+.test .item .card div{
+    width: 65px;
+    height: 65px;
+    font-size: 30px;
+    line-height: 65px;
+    border-radius: 50%;
+    background: #fff;
+    margin: auto;
+} */ */
+/* test end */
 /* testimonial end */
+
+/* upcoming start */
+.upcoming-event{
+    position: relative;
+    background: url(../images/event-bg.jpg);
+    /* background-size: 100% 100%; */
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center center;
+    background-repeat: no-repeat;
+}
+.upcoming-event h2{
+    font-size: 45px;
+    margin-top: 15px;
+    margin-bottom: 0px;
+}
+#time-add{
+    font-size: 20px;
+    font-family: 500;
+    margin-bottom: 12px;
+    /* padding-left: 25px; */
+}
+
+/* upcoming end */
+/* news start */
+.news .card:hover img {
+    transform: rotate(2deg) scale(1.2);
+    transition: all 0.3s linear;
+}
+.news .card-body h3{
+    font-size: 22px;
+}
+.news .content{
+    background-color: #fdf6ed;
+    padding: 30px;
+    border-radius: 0 0 10px 10px;
+}
+.blog li a{
+    color: #1b0238;
+    cursor: pointer;
+}
+
+
+/* news end */
+/* footer start */
+ footer{
+    background: linear-gradient(rgba(0,0,0,0.9),rgba(0,0,0,0.9)),url(../images/footer-bg.jpg);
+    position: relative;
+    background-position: center center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+ }
+ footer h2{
+    font-size: 50px;
+ }
+ footer h2 a{
+    color:#fff;
+ }
+ footer .para1{
+    font-size: 'Roboto',sans-serif;
+    font-weight: 400;
+    line-height: 1.8;
+    font-size: 16px;
+ }
+ footer .social{
+    width: 35px;
+    height: 35px;
+    color: #fff;
+    font-size: 16px;
+    line-height: 35px;
+    border-radius: 50%;
+    text-align: center;
+    background: #ea512e;
+    transition: 0.5s linear;
+ }
+ footer .social:hover{
+    background: #f5890d;
+    transform: translateY(-10px);
+    transition: 0.5s linear;
+ }
+ footer h3::after{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    content: '';
+    width: 60px;
+    height: 2px;
+    background-color: #ea512e;
+ }
+ footer .contact a:hover{
+    color: #ea512e !important;
+    transition: 0.5s;
+ }
+ footer .contact a::after{
+    position: absolute;
+    content: '';
+    left: 0;
+    bottom: 0;
+    width: 0;
+    height: 1px;
+    transition: 0.5s;
+ }
+ footer .contact a:hover::after{
+    width: 100%;
+    transition: 0.5s;
+    background-color: #EA512E;
+ }
+/* footer end */
 /* buy now btn */
 .buy-now-btn{
     right: 30px;
