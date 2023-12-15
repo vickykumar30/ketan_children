@@ -203,7 +203,7 @@ a.dropdown-item:hover {
         }
 
         .main-content p {
-            margin-top: 50px;
+            margin-top: 0px;
         }
     }
 }
@@ -216,8 +216,14 @@ a.dropdown-item:hover {
     .main-content {
         text-align: center;
         max-width: 630px;
-        margin: 0px 0px;
+        margin-top: 0px;
     }
+
+    .edu-img {
+        text-align: center;
+        display: none;
+    }
+
 }
 
 /* mrdia qwery end*/
@@ -233,7 +239,8 @@ a.dropdown-item:hover {
 .test span,
 .upcoming-event span,
 .news .span1,
-.about-work span {
+.about-work span,
+.reg-content span {
     font-size: 20px;
     color: #ea512e;
     font-weight: 600;
@@ -246,7 +253,8 @@ a.dropdown-item:hover {
 .core-teacher h2,
 .testimonial h2,
 .news h2,
-.about-work h3 {
+.about-work h3,
+.reg-content h3 {
     font-size: 45px;
     margin: 20px 0;
 }
@@ -957,4 +965,132 @@ footer .contact a:hover::after {
 }
 
 /* fun fact end */
+/* teacher-section start */
+.teacher-content span {
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.teacher-content h3 {
+    font-size: 35px;
+    margin: 15px 0;
+}
+
+.teacher-item {
+    margin-bottom: 30px;
+    text-align: center;
+}
+
+.teacher-img1 img {
+    border-radius: 15px;
+}
+
+
+/* .teacher-item .teacher-img1::before {
+    width: 100%;
+    content: '';
+    position: absolute;
+    height: 100%;
+    left: 0;
+    top: 0;
+    background-color: #000;
+    transition: 0.5s;
+    opacity: 0;
+    visibility: hidden;
+    border-radius: 50px;
+} */
+
+.teacher-item .teacher-img1 .teacher-item-content {
+    /* position: absolute;
+    top: 50%;
+    left: 0;
+    right: 0; */
+    transform: translateY(-50%);
+    margin-top: 10px;
+    visibility: hidden;
+    opacity: 0;
+    transition: 0.5s;
+}
+
+.social {
+    padding-left: 0;
+    margin-bottom: 0;
+    text-align: center;
+    margin-top: 15px;
+}
+
+.social li {
+    /* list-style: none; */
+    margin: 0 5px;
+}
+
+.social li a {
+    display: block;
+    width: 40px;
+    height: 40px;
+    background-color: #fff;
+    text-align: center;
+    position: relative;
+    font-size: 20px;
+    color: #EA512E;
+    border-radius: 50px;
+    transition: 0.5s;
+
+}
+
+/* teacher-section end */
+
+/* registration start  */
+.reg {
+    background: url(../images/quote-bg.jpg);
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+.reg-area {
+    max-width: 750px;
+    margin-left: auto;
+    background-color: #fff;
+    padding: 50px;
+    box-shadow: 0 2px 28px 0 rgba(0, 0, 0, 0.09);
+}
+
+.reg-area .reg-content {
+    margin-bottom: 30px;
+}
+
+.reg-area .form-group {
+    margin-bottom: 15px;
+}
+
+.reg-area form .form-group .form-control {
+    height: 70px;
+    color: #1b0238;
+    border: 1px solid #eee;
+    background-color: transparent;
+    border-radius: 10px;
+    padding: 0 0 0 15px;
+    font-weight: 500;
+    transition: 0.5s;
+    border: unset !important;
+}
+
+.form-control {
+    display: block;
+    width: 100%;
+    font-size: 16px;
+    line-height: 1.5;
+}
+
+.btn-form {
+    width: 100%;
+    cursor: pointer;
+    border: none;
+    margin-top: 10px;
+    padding: 15px 30px;
+}
+
+/* registration end  */
 /* about page section end */
