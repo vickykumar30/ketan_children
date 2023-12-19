@@ -41,6 +41,9 @@
 .bg-yellow-light {
     background: #fee9ca;
 }
+.bg-yellow-light2 {
+    background: #fef3e6;
+}
 
 .mt-20 {
     margin-top: 150px;
@@ -115,6 +118,11 @@ img {
     max-width: 100%;
     height: auto;
     display: inline-block;
+}
+.img-icon{
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
 }
 
 
@@ -240,7 +248,7 @@ a.dropdown-item:hover {
 .upcoming-event span,
 .news .span1,
 .about-work span,
-.reg-content span {
+.reg-content span, .online-content span, .online-testimonial span{
     font-size: 20px;
     color: #ea512e;
     font-weight: 600;
@@ -254,7 +262,7 @@ a.dropdown-item:hover {
 .testimonial h2,
 .news h2,
 .about-work h3,
-.reg-content h3 {
+.reg-content h3, .online-content h3, .online-testimonial h3{
     font-size: 45px;
     margin: 20px 0;
 }
