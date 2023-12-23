@@ -248,7 +248,7 @@ a.dropdown-item:hover {
 .upcoming-event span,
 .news .span1,
 .about-work span,
-.reg-content span, .online-content span, .online-testimonial span{
+.reg-content span, .online-content span, .online-tutors span{
     font-size: 20px;
     color: #ea512e;
     font-weight: 600;
@@ -546,40 +546,6 @@ a.dropdown-item:hover {
     background: #f5890d;
 }
 
-/* test start
-.slider-wrap{
-    position: relative;
-    overflow-x: hidden;
-    /* height: 100px; */
-/* }
-.slider-main{
-    position: absolute;
-    width: 200%;
-}
-.item{
-    width: 350px;
-    display: inline-block;
-    
-}
-.test .card{
-    height: auto;
-    padding: 30px;
-    text-align: center;
-    border-radius: 50%;
-    border: none;
-    background-color: #fee9ca;
-}
-.test .item .card div{
-    width: 65px;
-    height: 65px;
-    font-size: 30px;
-    line-height: 65px;
-    border-radius: 50%;
-    background: #fff;
-    margin: auto;
-} */
-*/
-/* test end */
 /* testimonial end */
 
 /* upcoming start */
@@ -974,6 +940,7 @@ footer .contact a:hover::after {
 
 /* fun fact end */
 /* teacher-section start */
+
 .teacher-content span {
     font-size: 16px;
     font-weight: 600;
@@ -993,32 +960,6 @@ footer .contact a:hover::after {
     border-radius: 15px;
 }
 
-
-/* .teacher-item .teacher-img1::before {
-    width: 100%;
-    content: '';
-    position: absolute;
-    height: 100%;
-    left: 0;
-    top: 0;
-    background-color: #000;
-    transition: 0.5s;
-    opacity: 0;
-    visibility: hidden;
-    border-radius: 50px;
-} */
-
-.teacher-item .teacher-img1 .teacher-item-content {
-    /* position: absolute;
-    top: 50%;
-    left: 0;
-    right: 0; */
-    transform: translateY(-50%);
-    margin-top: 10px;
-    visibility: hidden;
-    opacity: 0;
-    transition: 0.5s;
-}
 
 .social {
     padding-left: 0;
@@ -1043,7 +984,11 @@ footer .contact a:hover::after {
     color: #EA512E;
     border-radius: 50px;
     transition: 0.5s;
+    line-height: 40px;
 
+}
+.social li a:hover{
+    background-color: #e9aa52;
 }
 
 /* teacher-section end */
