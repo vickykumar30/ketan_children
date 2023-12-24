@@ -248,7 +248,7 @@ a.dropdown-item:hover {
 .upcoming-event span,
 .news .span1,
 .about-work span,
-.reg-content span, .online-content span, .online-tutors span{
+.reg-content span, .online-content span, .online-tutors span, .pricing-area span{
     font-size: 20px;
     color: #ea512e;
     font-weight: 600;
@@ -262,7 +262,7 @@ a.dropdown-item:hover {
 .testimonial h2,
 .news h2,
 .about-work h3,
-.reg-content h3, .online-content h3, .online-testimonial h3{
+.reg-content h3, .online-content h3, .online-testimonial h3, .pricing-area h3{
     font-size: 45px;
     margin: 20px 0;
 }
@@ -1046,4 +1046,74 @@ footer .contact a:hover::after {
 }
 
 /* registration end  */
+
+/* table setion start */
+.table-responsive{
+    overflow-x: hidden;
+}
+.pricing-table{
+    margin-bottom: 0;
+}
+.table>thead{
+    vertical-align: bottom;
+}
+tbody,tfoot,td,th,tr,thead{
+    border-color: inherit;
+    border-style: solid;
+    border-width: 0;
+}
+
+.pricing-table .table thead th {
+    border: 1px solid #f0f0f0;
+    color: #1b0238;
+    font-family: "Roboto", sans-serif;
+    font-weight: bold;
+    font-size: 20px;
+    padding: 30px 25px;
+    border-bottom: none;
+}
+.pricing-table .table tbody tr th{
+    border: 1px solid #f0f0f0;
+    color: #6b6b84;
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    overflow-x: auto;
+    font-size: 16px;
+    padding: 30px 25px;
+ 
+}
+.pricing-table .table tbody tr td{
+    border: 1px solid #f0f0f0;
+    color: #6b6b84;
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    overflow-x: auto;
+    font-size: 16px;
+    padding: 30px 25px;
+ 
+}
+table{
+    caption-side: bottom;
+    border-collapse: collapse;
+    border-spacing: 2px;
+    text-indent: initial;
+}
+/* table setion end */
+/* newsletter start */
+.newsletter-content h2{
+    font-size: 35px;
+    margin-bottom: 0;
+}
+.newsletter-form .input-newsletter{
+    display: block;
+    width: 100%;
+    background-color: #fff;
+    border: 1px solid #fff;
+    height: 60px;
+    padding-left: 25px;
+    border-radius: 5px;
+    outline: 0;
+    color: #1b0238;
+}
+/* newsletter end */
 /* about page section end */
