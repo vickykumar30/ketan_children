@@ -1206,3 +1206,21 @@ table{
     font-weight: 600;
 }
 /* teacher-detail page end */
+/* event page start */
+.event-banner {
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../images/page-banner-4.jpg);
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+.event-area .event-item{
+    padding: 35px 15px;
+    background-color: #fdeee9;
+}
+.event-area .event-date h4{
+    font-size: 80px;
+    color: #ea512e;
+    margin-bottom: 0;
+}
+/* event page end */
