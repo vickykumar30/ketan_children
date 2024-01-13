@@ -41,6 +41,7 @@
 .bg-yellow-light {
     background: #fee9ca;
 }
+
 .bg-yellow-light2 {
     background: #fef3e6;
 }
@@ -119,7 +120,8 @@ img {
     height: auto;
     display: inline-block;
 }
-.img-icon{
+
+.img-icon {
     width: 30px;
     height: 30px;
     border-radius: 50%;
@@ -248,7 +250,10 @@ a.dropdown-item:hover {
 .upcoming-event span,
 .news .span1,
 .about-work span,
-.reg-content span, .online-content span, .online-tutors span, .pricing-area span{
+.reg-content span,
+.online-content span,
+.online-tutors span,
+.pricing-area span {
     font-size: 20px;
     color: #ea512e;
     font-weight: 600;
@@ -262,7 +267,10 @@ a.dropdown-item:hover {
 .testimonial h2,
 .news h2,
 .about-work h3,
-.reg-content h3, .online-content h3, .online-testimonial h3, .pricing-area h3{
+.reg-content h3,
+.online-content h3,
+.online-testimonial h3,
+.pricing-area h3 {
     font-size: 45px;
     margin: 20px 0;
 }
@@ -858,7 +866,8 @@ footer .contact a:hover::after {
     opacity: .60;
 }
 
-.about-banner h2, .teacher-banner h2 {
+.about-banner h2,
+.teacher-banner h2 {
     font-size: 45px;
     margin-bottom: 20px;
     line-height: 1;
@@ -988,7 +997,8 @@ footer .contact a:hover::after {
     line-height: 40px;
 
 }
-.social li a:hover{
+
+.social li a:hover {
     background-color: #e9aa52;
 }
 
@@ -1052,16 +1062,24 @@ footer .contact a:hover::after {
 /* online-tutors end */
 
 /* table setion start */
-.table-responsive{
+.table-responsive {
     overflow-x: hidden;
 }
-.pricing-table{
+
+.pricing-table {
     margin-bottom: 0;
 }
-.table>thead{
+
+.table>thead {
     vertical-align: bottom;
 }
-tbody,tfoot,td,th,tr,thead{
+
+tbody,
+tfoot,
+td,
+th,
+tr,
+thead {
     border-color: inherit;
     border-style: solid;
     border-width: 0;
@@ -1076,7 +1094,8 @@ tbody,tfoot,td,th,tr,thead{
     padding: 30px 25px;
     border-bottom: none;
 }
-.pricing-table .table tbody tr th{
+
+.pricing-table .table tbody tr th {
     border: 1px solid #f0f0f0;
     color: #6b6b84;
     font-family: "Roboto", sans-serif;
@@ -1084,9 +1103,10 @@ tbody,tfoot,td,th,tr,thead{
     overflow-x: auto;
     font-size: 16px;
     padding: 30px 25px;
- 
+
 }
-.pricing-table .table tbody tr td{
+
+.pricing-table .table tbody tr td {
     border: 1px solid #f0f0f0;
     color: #6b6b84;
     font-family: "Roboto", sans-serif;
@@ -1094,21 +1114,24 @@ tbody,tfoot,td,th,tr,thead{
     overflow-x: auto;
     font-size: 16px;
     padding: 30px 25px;
- 
+
 }
-table{
+
+table {
     caption-side: bottom;
     border-collapse: collapse;
     border-spacing: 2px;
     text-indent: initial;
 }
+
 /* table setion end */
 /* newsletter start */
-.newsletter-content h2{
+.newsletter-content h2 {
     font-size: 35px;
     margin-bottom: 0;
 }
-.newsletter-form .input-newsletter{
+
+.newsletter-form .input-newsletter {
     display: block;
     width: 100%;
     background-color: #fff;
@@ -1119,7 +1142,8 @@ table{
     outline: 0;
     color: #1b0238;
 }
-.newsletter-form button{
+
+.newsletter-form button {
     position: absolute;
     right: 4px;
     top: 4px;
@@ -1135,7 +1159,8 @@ table{
     cursor: pointer;
     font-size: 16px;
 }
-.newsletter-form button:hover{
+
+.newsletter-form button:hover {
     background-color: #091629;
 }
 
@@ -1146,38 +1171,43 @@ table{
     bottom: 10%;
 }
 
-.class-shape .img-4{
+.class-shape .img-4 {
     width: 280px;
     height: auto;
     right: 0;
     bottom: 5%;
 }
+
 /* newsletter end */
 /* about page section end */
 /* teacher page section start */
-.teacher-banner {
+.teacher-banner,
+.class-banner {
     background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../images/page-banner-2.jpg);
     background-position: center center;
     background-size: cover;
     background-repeat: no-repeat;
     background-attachment: fixed;
 }
+
 /* teacher page section end */
 /* teacher-detail page start */
-.teacher-information{
+.teacher-information {
     background-color: #fff;
-    box-shadow: 0px -10px 30px rgba(0, 0, 0 , 0.1);
+    box-shadow: 0px -10px 30px rgba(0, 0, 0, 0.1);
     border-radius: 5px;
     border-top: 3px solid #ea512e;
     padding: 40px 30px;
 }
-.teacher-information h3{
+
+.teacher-information h3 {
     font-size: 25px;
     margin-bottom: 30px;
     border-bottom: 1px solid #eee;
     padding-bottom: 15px;
     position: relative;
 }
+
 .teacher-information h3::before {
     content: "";
     position: absolute;
@@ -1187,11 +1217,13 @@ table{
     height: 1px;
     background-color: #ea512e;
 }
-.teacher-information ul{
+
+.teacher-information ul {
     padding-bottom: 0;
     padding-left: 0;
 }
-.teacher-information ul li{
+
+.teacher-information ul li {
     list-style-type: none;
     color: #6b6b84;
     font-size: 16px;
@@ -1200,11 +1232,13 @@ table{
     font-family: "Roboto", sans-serif;
 
 }
-.teacher-information ul li span{
-    color:#1b0238;
+
+.teacher-information ul li span {
+    color: #1b0238;
     font-size: 18px;
     font-weight: 600;
 }
+
 /* teacher-detail page end */
 /* event page start */
 .event-banner {
@@ -1214,13 +1248,52 @@ table{
     background-repeat: no-repeat;
     background-attachment: fixed;
 }
-.event-area .event-item{
+
+.event-area .event-item {
     padding: 35px 15px;
     background-color: #fdeee9;
 }
-.event-area .event-date h4{
+
+.event-area .event-date h4 {
     font-size: 80px;
     color: #ea512e;
     margin-bottom: 0;
 }
+
 /* event page end */
+/* class page start */
+.pagination-area {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.pagination-area a {
+    text-decoration: none;
+}
+
+.pagination-area .page-numbers {
+    width: 35px;
+    height: 35px;
+    margin: 0 3px;
+    display: inline-block;
+    background-color: #fff;
+    line-height: 35px;
+    color: #1b0238;
+    font-size: 20px;
+    font-weight: bold;
+    border-radius: 50px;
+    box-shadow: 0 2px 10px 0 #d8dde6;
+}
+
+.pagination-area a:hover {
+    background-color: #f5890d;
+    color: #fff;
+    transition: all;
+}
+
+.page-numbers .current {
+    background-color: #f5890d;
+    color: #fff;
+}
+
+/* class page end */
