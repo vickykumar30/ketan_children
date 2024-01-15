@@ -1291,9 +1291,35 @@ table {
     transition: all;
 }
 
-.page-numbers .current {
+ .pagination-area .page-numbers.current {
     background-color: #f5890d;
     color: #fff;
+}
+
+/* class page end */
+/* class page start */
+.class-banner {
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../images/page-banner-5.jpg);
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+.class-newsletter{
+    background-color: #fcefea;
+    padding: 25px;
+    margin-top: 30px;
+}
+.class-newsletter .newsletter-form .input-newsletter {
+    display: block;
+    width: 100%;
+    background-color: #ffffff;
+    border: none;
+    height: 55px;
+    padding-left: 15px;
+    border-radius: 0;
+    outline: 0;
+    color: #1b0238;
 }
 
 /* class page end */
