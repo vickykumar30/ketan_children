@@ -1323,3 +1323,37 @@ table {
 }
 
 /* class page end */
+/* blog banner start */
+.blog-banner {
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../images/page-banner-1.jpg);
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+/* blog banner end */
+/* blog-detail page start */
+.blog-detail-banner {
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../images/page-banner-4.jpg);
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+blockquote{
+  background-color: #fff;
+  padding: 30px !important;
+  text-align: center;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  border-left: 3px solid #f58908;
+  border-right: 3px solid #f58908;
+  border-radius: 5px;
+}
+blockquote p{
+    color: #1b0238;
+    font-size: 18px !important;
+    font-weight: 500;
+ 
+}
+/* blog-detail page end */
