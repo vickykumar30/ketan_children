@@ -1271,7 +1271,7 @@ table {
     text-decoration: none;
 }
 
-.pagination-area .page-numbers {
+.pagination-area .page-numbers{
     width: 35px;
     height: 35px;
     margin: 0 3px;
@@ -1353,7 +1353,57 @@ blockquote{
 blockquote p{
     color: #1b0238;
     font-size: 18px !important;
-    font-weight: 500;
+    font-weight: 600;
  
 }
+.feature-list li{
+    padding-left: 34px;
+    margin-bottom: 16px;
+    position: relative;
+    color: #6b6b84;
+}
+.article-content .feature-list li .icon{
+    width: 20px;
+    height: 20px;
+    margin: 0 3px;
+    display: inline-block;
+    background-color: #fff;
+    line-height: 35px;
+    color: #1b0238;
+    font-size: 20px;
+    font-weight: bold;
+    border-radius: 50px;
+    box-shadow: 0 2px 10px 0 #d8dde6;
+}
+.article-content .feature-list li .icon:hover{
+   background-color: #f5890d;
+   color: #fff;
+}
+.article-footer .article-tags a:hover{
+    color: #f5890d;
+}
+.blog-detail-desc .article-footer .article-share .social-icon{
+    text-align: right;
+    list-style-type: none;
+}
+.blog-detail-desc .article-footer .article-share .social-icon li{
+    display: inline-block;
+}
+.blog-detail-desc .article-footer .article-share .social-icon li span{
+    display: inline-block;
+    margin-right: 2px;
+    font-weight: bold;
+    color: #6b6b84;
+}
+.blog-detail-desc .article-footer .article-share .social-icon li a{
+    display: block;
+    color: #f5890d;
+    width: 30px;
+    height: 30px;
+    line-height: 30px;
+    border-radius: 50%;
+    background-color: #eeeef0;
+    text-align: center;
+}
+
 /* blog-detail page end */
