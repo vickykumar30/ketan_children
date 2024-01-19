@@ -1271,7 +1271,7 @@ table {
     text-decoration: none;
 }
 
-.pagination-area .page-numbers{
+.pagination-area .page-numbers {
     width: 35px;
     height: 35px;
     margin: 0 3px;
@@ -1291,7 +1291,7 @@ table {
     transition: all;
 }
 
- .pagination-area .page-numbers.current {
+.pagination-area .page-numbers.current {
     background-color: #f5890d;
     color: #fff;
 }
@@ -1305,11 +1305,13 @@ table {
     background-repeat: no-repeat;
     background-attachment: fixed;
 }
-.class-newsletter{
+
+.class-newsletter {
     background-color: #fcefea;
     padding: 25px;
     margin-top: 30px;
 }
+
 .class-newsletter .newsletter-form .input-newsletter {
     display: block;
     width: 100%;
@@ -1331,6 +1333,7 @@ table {
     background-repeat: no-repeat;
     background-attachment: fixed;
 }
+
 /* blog banner end */
 /* blog-detail page start */
 .blog-detail-banner {
@@ -1340,29 +1343,33 @@ table {
     background-repeat: no-repeat;
     background-attachment: fixed;
 }
-blockquote{
-  background-color: #fff;
-  padding: 30px !important;
-  text-align: center;
-  margin-top: 20px;
-  margin-bottom: 20px;
-  border-left: 3px solid #f58908;
-  border-right: 3px solid #f58908;
-  border-radius: 5px;
+
+blockquote {
+    background-color: #fff;
+    padding: 30px !important;
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border-left: 3px solid #f58908;
+    border-right: 3px solid #f58908;
+    border-radius: 5px;
 }
-blockquote p{
+
+blockquote p {
     color: #1b0238;
     font-size: 18px !important;
     font-weight: 600;
- 
+
 }
-.feature-list li{
+
+.feature-list li {
     padding-left: 34px;
     margin-bottom: 16px;
     position: relative;
     color: #6b6b84;
 }
-.article-content .feature-list li .icon{
+
+.article-content .feature-list li .icon {
     width: 20px;
     height: 20px;
     margin: 0 3px;
@@ -1375,27 +1382,33 @@ blockquote p{
     border-radius: 50px;
     box-shadow: 0 2px 10px 0 #d8dde6;
 }
-.article-content .feature-list li .icon:hover{
-   background-color: #f5890d;
-   color: #fff;
+
+.article-content .feature-list li .icon:hover {
+    background-color: #f5890d;
+    color: #fff;
 }
-.article-footer .article-tags a:hover{
+
+.article-footer .article-tags a:hover {
     color: #f5890d;
 }
-.blog-detail-desc .article-footer .article-share .social-icon{
+
+.blog-detail-desc .article-footer .article-share .social-icon {
     text-align: right;
     list-style-type: none;
 }
-.blog-detail-desc .article-footer .article-share .social-icon li{
+
+.blog-detail-desc .article-footer .article-share .social-icon li {
     display: inline-block;
 }
-.blog-detail-desc .article-footer .article-share .social-icon li span{
+
+.blog-detail-desc .article-footer .article-share .social-icon li span {
     display: inline-block;
     margin-right: 2px;
     font-weight: bold;
     color: #6b6b84;
 }
-.blog-detail-desc .article-footer .article-share .social-icon li a{
+
+.blog-detail-desc .article-footer .article-share .social-icon li a {
     display: block;
     color: #f5890d;
     width: 30px;
@@ -1404,6 +1417,58 @@ blockquote p{
     border-radius: 50%;
     background-color: #eeeef0;
     text-align: center;
+    font-family: 400;
+}
+
+.article-footer .article-share .social-icon li a:hover {
+    background-color: #f58908;
+    color: #fff;
+    transition: 0.2s;
+}
+
+.post-navigation {
+    margin-top: 30px;
+    border-top: 1px solid #eee;
+    border-bottom: 1px solid #eee;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.post-navigation .navigation-links a:hover {
+    color: #f58908;
+    transition: all;
+}
+
+.comments-area .comment-body {
+    border-bottom: 1px dashed #eeeeee;
+    padding-left: 70px;
+    color: #1b0238;
+    margin-bottom: 20px;
+    padding-bottom: 20px;
+}
+
+.comments-area .comment-author {
+    font-size: 16px;
+    margin-bottom: 8px;
+    position: relative;
+    z-index: 2;
+}
+.comments-area .comment-author .avatar {
+    height: 50px;
+    left: -65px;
+    position: absolute;
+    width: 50px;
+}
+
+.comments-area .comment-body .reply a {
+    border: 1px dashed #ded9d9;
+    color: #1b0238;
+    display: inline-block;
+    padding: 5px 25px 5px;
+    border-radius: 30px;
+    text-transform: capitalize;
+    font-size: 14px;
+    font-weight: 500;
 }
 
 /* blog-detail page end */
