@@ -1470,5 +1470,97 @@ blockquote p {
     font-size: 14px;
     font-weight: 500;
 }
+.comments-area .comment-respond .comment-form-author{
+    float: left;
+    width: 50%;
+    padding-right: 10px;
+    margin-bottom: 20px;
+}
+.comments-area .comment-respond .comment-form-email {
+    float: left;
+    width: 50%;
+    padding-left: 12px;
+    margin-bottom: 20px;
+}
+.comments-area .comment-respond .comment-form-url {
+    float: left;
+    width: 100%;
+    margin-bottom: 20px;
+}
+.comments-area .comment-respond input[type="text"], input[type="url"], input[type="email"]
+{
+    display: block;
+    width: 100%;
+    background-color: #f4f4f4;
+    border: none;
+    padding: 1px 0 0 15px;
+    height: 60px;
+    outline: 0;
+    border-radius: 2px;
+    color: #1b0238;
+
+}
+.comments-area .comment-respond textarea{
+    display: block;
+    width: 100%;
+    background-color: #f4f4f4;
+    border: none;
+    padding: 1px 0 0 15px;
+    outline: 0;
+    border-radius: 2px;
+    color: #1b0238;
+}
+.widget-area .widget-search{
+    background-color: #fff;
+    border-radius: 5px;
+    padding: 25px;
+    box-shadow: 0 0 1.25rem rgba(108, 118, 134, 0.1);
+}
+.widget-area .widget .widget-title{
+    margin-bottom: 25px;
+    position: relative;
+    padding-bottom: 10px;
+    border-bottom: 1px solid #eeeeee;
+    font-size: 20px;
+}
+.widget-area .widget .widget-title::before {
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 50px;
+    height: 1px;
+    bottom: -1px;
+    background: #ea512e;
+}
+ .search-form .search-field {
+    background-color: transparent;
+    height: 70px;
+    padding: 8px 15px;
+    border: 1px solid #eeeeee;
+    width: 100%;
+    display: block;
+    outline: 0;
+    /* -webkit-transition: 0.5s; */
+    transition: 0.5s;
+    border-radius: 5px;
+}
+.widget-area .widget-search .search-form button {
+    border: none;
+    background-color: #eeeeee;
+    color: #f5890d;
+    height: 40px;
+    width: 40px;
+    position: absolute;
+    right: 5px;
+    padding: 0;
+    /* -webkit-transition: 0.5s; */
+    transition: 0.5s;
+    top: 5px;
+    font-size: 20px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
 
 /* blog-detail page end */

@@ -374,43 +374,67 @@
                         </ol>
                         <div class="comment-respond mt-2">
                           <h3>Leave a Reply</h3>
-                          <form action="">
-                            <p>
+                          <form action="" class="overflow-hidden">
+                            <p class="mt-1 mb-1">
                               <span>Your email address will not be published. Required fields are marked *</span>
                             </p>
-                            <p>
+                            <p class="comment-form-author">
                               <label for="" class="d-none">
                                 Name
                                 <span class="required">*</span>
                               </label>
                               <input type="text" name="author" placeholder="Your Name*" required>
                             </p> 
-                             <p>
+                             <p class="comment-form-email">
                               <label for="" class="d-none">
                                 Email
                                 <span class="required">*</span>
                               </label>
-                              <input type="email" name="author" placeholder="Email*" required>
+                              <input type="email" name="author" placeholder="Your Email*" required>
                             </p> 
-                             <p>
-                             <p>
+                             
+                             <p class="comment-form-url">
                               <label for="" class="d-none">
                                 Website
                               </label>
                               <input type="url" name="url" placeholder="Website">
                             </p>
-                            <p>
+                            <p class="comment-form-comment">
                               <label for="" class="d-none">
                                 comment
                               </label>
-                              <textarea name="comment" id="" placeholder="Your Comment..." cols="45" rows="5"></textarea>
+                              <textarea name="comment" id="" placeholder="Your Comment..." cols="45" rows="5" maxlength="62525" required></textarea>
                             </p>
-                          </form>
+                            
+                          <p class="comment-form-cookies">
+                            <input type="checkbox" value="yes" name="cookies">
+                            <label for="cookies">
+                              Save my name, email, and website in this browser for the next time I comment.
+                            </label>
+                          </p>
+                          <p>
+                            <button type="submit" class="btn">Post a Comment</button>
+                          </p>
                         </div>
                        </div>
                     </div>
                 </div>
-                <div class="col-lg-4 col-md-12"></div>
+                <div class="col-lg-4 col-md-12">
+                  <aside class="widget-area d-block">
+                    <section class="widget widget-search mb-2">
+                      <h3 class="widget-title">Search</h3>
+                      <form action="" class="searh-form position-relative">
+                        <label for="" class="d-block mb-0">
+                          <span class="d-none">search for</span>
+                          <input type="text" placeholder="Search..." class="search-field">
+                        </label>
+                        <button type="submit">
+                          <i class="fa-brands fa-searchengin"></i>
+                        </button>
+                      </form>
+                    </section>
+                  </aside>
+                </div>
             </div>
         </div>
     </section>
