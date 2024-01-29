@@ -1562,5 +1562,37 @@ blockquote p {
     cursor: pointer;
 }
 
+.widget-area .widget_ketan_posts_thumb {
+    position: relative;
+    overflow: hidden;
+    background-color: #ffffff;
+    box-shadow: 0 0 1.25rem rgba(108, 118, 134, 0.1);
+    border-radius: 5px;
+    padding: 25px;
+}
+.widget-area .widget_ketan_posts_thumb .item .thumb {
+    float: left;
+    height: 80px;
+    overflow: hidden;
+    display: block;
+    position: relative;
+    width: 80px;
+    margin-right: 15px;
+    z-index: 1;
+}
+.widget-area .widget_ketan_posts_thumb .info span{
+    display: block;
+    color: #f58908;
+    margin-top: -2px;
+    margin-bottom: 5px;
+    font-size: 14px;
+}
+.widget-area .widget_ketan_posts_thumb .item .thumb .title{
+    font-size: 17px;
+    font-weight: bold;
+    line-height: 1.4;
+    margin-bottom: 0;
+}
+
 
 /* blog-detail page end */
