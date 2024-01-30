@@ -1453,6 +1453,7 @@ blockquote p {
     position: relative;
     z-index: 2;
 }
+
 .comments-area .comment-author .avatar {
     height: 50px;
     left: -65px;
@@ -1470,25 +1471,30 @@ blockquote p {
     font-size: 14px;
     font-weight: 500;
 }
-.comments-area .comment-respond .comment-form-author{
+
+.comments-area .comment-respond .comment-form-author {
     float: left;
     width: 50%;
     padding-right: 10px;
     margin-bottom: 20px;
 }
+
 .comments-area .comment-respond .comment-form-email {
     float: left;
     width: 50%;
     padding-left: 12px;
     margin-bottom: 20px;
 }
+
 .comments-area .comment-respond .comment-form-url {
     float: left;
     width: 100%;
     margin-bottom: 20px;
 }
-.comments-area .comment-respond input[type="text"], input[type="url"], input[type="email"]
-{
+
+.comments-area .comment-respond input[type="text"],
+input[type="url"],
+input[type="email"] {
     display: block;
     width: 100%;
     background-color: #f4f4f4;
@@ -1500,7 +1506,8 @@ blockquote p {
     color: #1b0238;
 
 }
-.comments-area .comment-respond textarea{
+
+.comments-area .comment-respond textarea {
     display: block;
     width: 100%;
     background-color: #f4f4f4;
@@ -1510,19 +1517,24 @@ blockquote p {
     border-radius: 2px;
     color: #1b0238;
 }
-.widget-area .widget-search{
+
+.widget-area .widget-search,
+.widget_categories,
+.widget_tag_cloud {
     background-color: #fff;
     border-radius: 5px;
     padding: 25px;
     box-shadow: 0 0 1.25rem rgba(108, 118, 134, 0.1);
 }
-.widget-area .widget .widget-title{
+
+.widget-area .widget .widget-title {
     margin-bottom: 25px;
     position: relative;
     padding-bottom: 10px;
     border-bottom: 1px solid #eeeeee;
     font-size: 20px;
 }
+
 .widget-area .widget .widget-title::before {
     content: '';
     position: absolute;
@@ -1533,7 +1545,8 @@ blockquote p {
     bottom: -1px;
     background: #ea512e;
 }
- .search-form .search-field {
+
+.search-form .search-field {
     background-color: transparent;
     height: 70px;
     padding: 8px 15px;
@@ -1545,6 +1558,7 @@ blockquote p {
     transition: 0.5s;
     border-radius: 5px;
 }
+
 .widget-area .widget-search .search-form button {
     border: none;
     background-color: #eeeeee;
@@ -1570,6 +1584,7 @@ blockquote p {
     border-radius: 5px;
     padding: 25px;
 }
+
 .widget-area .widget_ketan_posts_thumb .item .thumb {
     float: left;
     height: 80px;
@@ -1580,18 +1595,83 @@ blockquote p {
     margin-right: 15px;
     z-index: 1;
 }
-.widget-area .widget_ketan_posts_thumb .info span{
+
+.widget-area .widget_ketan_posts_thumb .info span {
     display: block;
     color: #f58908;
     margin-top: -2px;
     margin-bottom: 5px;
     font-size: 14px;
 }
-.widget-area .widget_ketan_posts_thumb .item .thumb .title{
-    font-size: 17px;
+
+.widget-area .widget_ketan_posts_thumb .item .thumb .title {
+    /* font-size: 17px; */
     font-weight: bold;
     line-height: 1.4;
     margin-bottom: 0;
+}
+
+.title a {
+    color: #1b0238;
+    text-decoration: none;
+    font-size: 17px;
+}
+
+.title a:hover {
+    color: #f58908;
+    transition: 0.1s;
+}
+
+.widget-area .widget_categories ul li {
+    position: relative;
+    margin-bottom: 12px;
+    overflow: hidden;
+    color: #1b0238;
+    padding-left: 18px;
+    font-size: 15px;
+    font-weight: 500;
+}
+
+.widget-area .widget_categories ul li::before {
+    background: #ea512e;
+    height: 8px;
+    width: 8px;
+    content: '';
+    border-radius: 50%;
+    left: 0;
+    top: 7px;
+    position: absolute;
+}
+
+.widget-area .widget_categories ul li a {
+    text-decoration: none;
+    color: #1b0238;
+    display: inline-block;
+}
+
+.widget-area .widget_categories ul li a:hover {
+    color: #f58908;
+    transition: 0.1s;
+}
+
+.widget-area .tagcloud a {
+    background: #f5f5f5;
+    display: inline-block;
+    color: #1b0238;
+    padding: 7px 15px;
+    border: none;
+    border-radius: 3px;
+    font-weight: 500;
+    font-size: 15px !important;
+    margin-top: 8px;
+    margin-right: 5px;
+    text-decoration: none;
+}
+
+.widget-area .tagcloud a:hover {
+    background-color: #82b440;
+    color: #fff;
+    transition: 0.1s;
 }
 
 
