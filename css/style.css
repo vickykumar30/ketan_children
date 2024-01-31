@@ -1676,3 +1676,40 @@ input[type="email"] {
 
 
 /* blog-detail page end */
+/* contact page start */
+.contact-detail-banner {
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../images/page-banner-1.jpg);
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+.contact-form #contactform .form-group .form-control{
+    height: 60px;
+    padding: 0 0 0 15px;
+    color: #1b0238;
+    background-color: transparent;
+    border: 1px solid #f1f1f1;
+    border-radius: 5px; 
+    box-shadow: unset !important;
+    font-size: 16px;
+    font-weight: 400;
+}
+.contact-form #contactForm .form-group textarea.form-control {
+    height: auto;
+    padding: 15px 0 0 15px;
+}
+
+.contact-information .contact-list li {
+    margin-bottom: 12px;
+    position: relative;
+    padding-left: 25px;
+}
+ .contact-list li .icon {
+    position: absolute;
+    left: 0;
+    top: 2px;
+    color: #ea512e;
+    font-size: 20px;
+}
+/* contact page end */
