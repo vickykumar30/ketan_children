@@ -1684,17 +1684,19 @@ input[type="email"] {
     background-repeat: no-repeat;
     background-attachment: fixed;
 }
-.contact-form #contactform .form-group .form-control{
+
+.contact-form #contactform .form-group .form-control {
     height: 60px;
     padding: 0 0 0 15px;
     color: #1b0238;
     background-color: transparent;
     border: 1px solid #f1f1f1;
-    border-radius: 5px; 
+    border-radius: 5px;
     box-shadow: unset !important;
     font-size: 16px;
     font-weight: 400;
 }
+
 .contact-form #contactForm .form-group textarea.form-control {
     height: auto;
     padding: 15px 0 0 15px;
@@ -1705,11 +1707,14 @@ input[type="email"] {
     position: relative;
     padding-left: 25px;
 }
- .contact-list li .icon {
-    position: absolute;
-    left: 0;
-    top: 2px;
-    color: #ea512e;
-    font-size: 20px;
+
+/* mao setion start */
+#map iframe {
+    border: none;
+    width: 100%;
+    height: 450px;
+    margin-bottom: -8px;
 }
+
+/* mao setion end */
 /* contact page end */
